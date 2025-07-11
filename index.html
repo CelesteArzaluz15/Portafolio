@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Celeste Arzaluz | Full-Stack Developer Jr.</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@400;700&display=swap" rel="stylesheet">
+
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Ysabeau SC', sans-serif;
+      background: linear-gradient(to right, #dbeafe, #f0f9ff);
+      color: #333;
+    }
+
+    nav {
+      background-color: #0f172a;
+      padding: 1rem;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 999;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      padding-top: 8rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      justify-content: center;
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .tags li {
+      background: #e0e7ff;
+      padding: 0.4rem 1rem;
+      border-radius: 20px;
+    }
+
+    .custom-img {
+      width: 100%;
+      max-width: 480px;
+      aspect-ratio: 16 / 9;
+      object-fit: cover;
+      border-radius: 20px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      background-color: #e0e7ff;
+      padding: 0.5rem;
+      margin-bottom: 1.5rem;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    footer {
+      background-color: #0f172a;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+      margin-top: 2rem;
+    }
+
+    footer a {
+      color: #93c5fd;
+    }
+
+    section {
+      scroll-margin-top: 100px;
+    }
+
+    .flex-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      justify-content: center;
+      align-items: center;
+      margin-top: 3rem;
+    }
+
+    .flex-item {
+      flex: 1 1 300px;
+      text-align: left;
+    }
+
+    .flex-item img {
+      max-width: 100%;
+      border-radius: 20px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      background-color: #e0e7ff;
+      padding: 0.5rem;
+      margin-bottom: 1.5rem;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    @media (max-width: 768px) {
+      .flex-container {
+        flex-direction: column;
+      }
+
+      .flex-item {
+        order: initial !important;
+        text-align: center !important;
+      }
+
+      .flex-item img {
+        max-width: 80%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="text-center">
+    <a href="#perfil">Perfil</a>
+    <a href="#soft-skills">Soft Skills</a>
+    <a href="#hard-skills">Hard Skills</a>
+    <a href="#proyecto">Proyecto</a>
+    <a href="#experiencia">Experiencia</a>
+    <a href="#formacion">Formación</a>
+    <a href="#idiomas">Idiomas</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <main class="container">
+
+    <!-- Perfil -->
+    <section id="perfil" class="flex-container">
+      <div class="flex-item">
+        <img src="pictures/celeste-canva.jpg" alt="Foto de Celeste" class="custom-img" />
+      </div>
+      <div class="flex-item">
+        <h1>Celeste Belem Arzaluz Luna</h1>
+        <h2>Full-Stack Developer Jr.</h2>
+        <p>📍 Huixquilucan, Estado de México</p>
+        <p>📧 <a href="mailto:celeste.arzaluz15@gmail.com">celeste.arzaluz15@gmail.com</a> |
+          📱 <a href="https://wa.me/525621496065">+52 5621496065</a></p>
+        <p>🔗 <a href="#">LinkedIn</a> | 🐙 <a href="#">GitHub</a></p>
+      </div>
+    </section>
+
+    <!-- Perfil Profesional -->
+    <section class="flex-container">
+      <div class="flex-item">
+        <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=600&q=80"
+          alt="Perfil profesional" class="custom-img" />
+      </div>
+      <div class="flex-item">
+        <h3>🧑‍💻 Perfil Profesional</h3>
+        <p>Profesional en Sistemas Computacionales apasionada por el aprendizaje continuo y la mejora constante. Cuento
+          con habilidades técnicas en HTML, CSS, JavaScript, Python y Java, junto con experiencia en Git y GitHub. Me
+          destaco por mi creatividad, pensamiento innovador y capacidad de trabajo colaborativo.</p>
+      </div>
+    </section>
+
+    <!-- Hard Skills -->
+    <section id="hard-skills" class="flex-container">
+      <div class="flex-item">
+        <img src="pictures/hard skills.jpg" alt="Hard Skills" class="custom-img" />
+      </div>
+      <div class="flex-item">
+        <h3>💻 Hard Skills</h3>
+        <ul class="tags">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Python</li>
+          <li>Java</li>
+          <li>Git & GitHub</li>
+          <li>AWS</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Soft Skills -->
+    <section id="soft-skills" class="flex-container">
+      <div class="flex-item">
+        <img src="pictures/soft skills.jpg" alt="Soft Skills" class="custom-img" />
+      </div>
+      <div class="flex-item">
+        <h3>🧠 Soft Skills</h3>
+        <ul class="tags">
+          <li>Trabajo en equipo</li>
+          <li>Liderazgo</li>
+          <li>Comunicación efectiva</li>
+          <li>Creatividad</li>
+          <li>Perseverancia</li>
+          <li>Decisiones prudentes</li>
+          <li>Valentía</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Proyecto -->
+    <section id="proyecto" class="flex-container">
+      <div class="flex-item">
+        <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=600&q=80"
+          alt="Sitio web Existencialismo" class="custom-img" />
+      </div>
+      <div class="flex-item">
+        <h3>📂 Proyecto Académico</h3>
+        <p><strong>Existencialismo | Mujer Digital</strong><br />
+          <em>Mayo 2024 - Octubre 2024</em><br />
+          Tecnologías: JavaScript, HTML, CSS
+        </p>
+        <ul class="text-start mx-auto" style="max-width: 700px;">
+          <li>Desarrollé una página web desde cero como parte del programa Mujer Digital.</li>
+          <li>Fortalecí habilidades de organización, resolución de problemas y autodisciplina.</li>
+          <li>Implementé estructura HTML, diseño con CSS y funcionalidades interactivas con JavaScript.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Experiencia -->
+    <section id="experiencia" class="flex-container">
+      <div class="flex-item">
+        <img src="pictures/Tiger-fondoblack.png" alt="Experiencia laboral" class="custom-img" />
+      </div>
+      <div class="flex-item">
+        <h3>💼 Experiencia Laboral</h3>
+        <h4>E-commerce The King Tiger | FireStack</h4>
+        <p><em>Mayo 2025 - Agosto 2025</em></p>
+        <ul class="text-start mx-auto" style="max-width: 700px;">
+          <li>Desarrollo front-end con React.js y API REST.</li>
+          <li>Mejora del rendimiento y experiencia de usuario.</li>
+          <li>Colaboración en equipo ágil utilizando SCRUM.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Formación -->
+    <section id="formacion" class="flex-container">
+      <div class="flex-item">
+        <img src="pictures/cursos.jpg" alt="Formación" class="custom-img" />
+      </div>
+      <div class="flex-item">
+        <h3>🎓 Formación Académica</h3>
+        <ul class="text-start mx-auto" style="max-width: 700px;">
+          <li><strong>Licenciatura en Sistemas Computacionales</strong> - Universidad CUCEP (2023-2025)</li>
+          <li><strong>Certificación Mujer Digital</strong> - Academia Mujer Digital (2024)</li>
+          <li><strong>Curso AWS</strong> - Plataforma Online (2025)</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Idiomas -->
+    <section id="idiomas" class="flex-container">
+      <div class="flex-item">
+        <img src="pictures/idiomas.avif" alt="Idiomas" class="custom-img" />
+      </div>
+      <div class="flex-item">
+        <h3>🌎 Idiomas</h3>
+        <p>Español: Nativo</p>
+        <p>Inglés: A2</p>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="mt-5 text-center">
+      <h3>📞 Contacto</h3>
+      <p>Estoy abierta a oportunidades y colaboraciones. ¡Conversemos!</p>
+      <p>Email: <a href="mailto:celeste.arzaluz15@gmail.com">celeste.arzaluz15@gmail.com</a></p>
+      <p>WhatsApp: <a href="https://wa.me/525621496065">+52 5621496065</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Celeste Belem Arzaluz Luna. Todos los derechos reservados.</p>
+  </footer>
+</body>
+
+</html>
